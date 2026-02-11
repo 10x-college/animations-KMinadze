@@ -26,10 +26,11 @@ header img {
 }
 header nav {
   height: 100px;
-  width: 90%;
+  width: 94%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px dashed #55555548;
 }
 ul {
   display: flex;
@@ -56,7 +57,7 @@ ul .first_child a {
 }
 ul .last_child {
   width: 135px;
-  border: 1px dashed #555555;
+  border: 1px dashed #55555548;
   cursor: pointer;
 }
 ul .last_child:hover {
